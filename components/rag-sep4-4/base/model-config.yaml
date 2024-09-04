@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-sep4-4-model-config
+data:
+  MODEL_ENDPOINT: "http://rag-sep4-4-model-server:8001"
+  MODEL_NAME: "instructlab/granite-7b-lab"
